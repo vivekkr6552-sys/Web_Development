@@ -1,0 +1,48 @@
+body {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Arial;
+}
+/* because calculator is div id not class
+in class we use . */
+#calculator {
+    width:220px;
+    padding:20px;
+    background-color: #222;
+    
+}
+#display {
+    width:100%;
+    height:40px;
+    margin-bottom: 10px;
+    font-size:18px;
+    text-align: right;
+    padding-right: 5px;
+}
+button {
+    width:50px;
+    height:40px;
+    margin:5px;
+    cursor:pointer;
+}
+#equal {
+    width:60%;
+    background:orange;
+}
+.point {
+    font-size: 20px;
+    color:white;
+    background-color:rgba(71, 227, 28, 0.795);
+}
+#clear {
+    background:red;
+}
+.number {
+    color:white;
+    background-color:rgb(0, 0, 0);
+}
+
+.h1 {
+    display:grid;
+}
