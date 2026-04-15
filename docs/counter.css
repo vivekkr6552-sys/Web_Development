@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+
+.home{
+   
+    width: 300px;
+    margin: 100px auto;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+}
